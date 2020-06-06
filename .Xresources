@@ -1,0 +1,3 @@
+URxvt.font: xft:SF Pro Display: size=12
+URxvt.cursorBlink: true
+URxvt.scrollBar: false
