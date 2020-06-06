@@ -1,0 +1,115 @@
+{
+    // General
+    "window.titleBarStyle": "custom",
+    "workbench.editor.tabCloseButton": "left",
+    "editor.detectIndentation": false,
+    "editor.renderWhitespace": "all",
+    "breadcrumbs.enabled": true,
+    // Vim
+    "vim.leader": "-",
+    "vim.useCtrlKeys": false,
+    "vim.insertModeKeyBindings":[
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>", "l"]
+        },
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>", "l", "a"]
+        },
+        {
+            "before": ["j", "l"],
+            "after": ["<Esc>", "A"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["leader", "t"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.terminal.toggleTerminal",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "J"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.previousEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "K"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.nextEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "Z"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.navigateLeft",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "U"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.navigateDown",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "I"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.navigateUp",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "O"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.navigateRight",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["leader", "/"],
+            "after": ["y", "/", "<C-r>", "\"", "<CR>"]
+        }
+    ],
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.renderControlCharacters": true,
+    "window.menuBarVisibility": "default",
+    "latex-workshop.view.pdf.viewer": "external",
+    "editor.fontFamily": "Consolas, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "zenMode.centerLayout": false,
+    "window.zoomLevel": 0,
+    "zenMode.hideLineNumbers": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.multiCursorModifier": "ctrlCmd",
+}
