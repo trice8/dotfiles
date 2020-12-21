@@ -6,7 +6,7 @@
     "editor.renderWhitespace": "all",
     "breadcrumbs.enabled": true,
     // Vim
-    "vim.leader": "-",
+    "vim.leader": "space",
     "vim.useCtrlKeys": false,
     "vim.insertModeKeyBindings":[
         {
@@ -34,7 +34,7 @@
             ]
         },
         {
-            "before": ["leader", "J"],
+            "before": ["leader", "j"],
             "after": [],
             "commands": [
                 {
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "before": ["leader", "K"],
+            "before": ["leader", "k"],
             "after": [],
             "commands": [
                 {
@@ -54,7 +54,7 @@
             ]
         },
         {
-            "before": ["leader", "Z"],
+            "before": ["leader", "h"],
             "after": [],
             "commands": [
                 {
@@ -64,7 +64,7 @@
             ]
         },
         {
-            "before": ["leader", "U"],
+            "before": ["leader", "l"],
             "after": [],
             "commands": [
                 {
@@ -74,7 +74,7 @@
             ]
         },
         {
-            "before": ["leader", "I"],
+            "before": ["leader", "i"],
             "after": [],
             "commands": [
                 {
@@ -84,7 +84,7 @@
             ]
         },
         {
-            "before": ["leader", "O"],
+            "before": ["leader", "o"],
             "after": [],
             "commands": [
                 {
